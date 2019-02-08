@@ -16,6 +16,7 @@ Yes.
 rvm install 1.9.3
 git clone git@github.com:zerowidth/launched.git
 cd Launched
+brew install postgres
 gem install bundler -v 1.17.0
 bundle config build.eventmachine --with-cppflags=-I/usr/local/opt/openssl/include
 bundle install
