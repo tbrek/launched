@@ -160,3 +160,9 @@ DEPENDENCIES
   thin
   uglifier (>= 1.0.3)
   uuid
+
+RUBY VERSION
+   ruby 1.9.3p551
+
+BUNDLED WITH
+   1.17.0

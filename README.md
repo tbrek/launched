@@ -11,6 +11,19 @@ YIBYABS: Yes, I Built Yet Another Bootstrap Site!
 
 Yes.
 
+## How to run locally
+```bash
+rvm install 1.9.3
+git clone git@github.com:zerowidth/launched.git
+cd Launched
+gem install bundler -v 1.17.0
+bundle config build.eventmachine --with-cppflags=-I/usr/local/opt/openssl/include
+bundle install
+createuser -s launched
+bundle exec rake db:setup
+bundle exec rails server
+```
+
 ## Contributing
 
 * fork
